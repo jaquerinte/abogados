@@ -42,8 +42,8 @@ class FrontController{
 		//Si todo esta bien, creamos una instancia del controlador y llamamos a la accion
 		$controller = new $controllerName();
 		$controller->$actionName();
-		}
-		}
+	}
+}
 		
 		
 		

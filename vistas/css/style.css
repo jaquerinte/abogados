@@ -1,0 +1,137 @@
+#superior{	
+	position: absolute;
+	width:100%;
+	height:8em;
+	left: 0;
+	top: 0;
+	font-size:1.4em;
+	background-color: #8EBDFB;
+}
+
+#logo{
+	/*cuadro que contiene el texto presentado en la cabecera */
+	width: 100%;
+	height: 137px;
+	left: 0;
+	top: 0;
+	font-style:italic;
+	background-image:url("coche.jpg");
+	/*background-repeat: no-repeat;*/ 
+}
+
+.titulo{ 
+    position: relative;
+	width: 85%;
+	height: 60%;
+	left: 0;		
+	font-size:2.1em;
+    text-align: center; 	 
+}
+
+#cabecera{
+	float: left;
+	width:100%;
+	height:21%;
+	top:50px;
+}
+
+#menuheader {  
+	text-align: center;
+	font-size: 1em;
+	font-weight: bold;
+	color:black;	
+	width: 1200px;
+	margin-left: 8em;  
+	position: relative;
+}
+
+#menuheader ul {
+    list-style-type: none;
+}
+
+#menuheader ul li.nivel1 {
+	float: left;
+	width: 132px;
+	margin-right: 2px;
+	position: relative;
+}
+#menuheader ul li { 
+    float: left;
+}
+
+#menuheader ul li a {
+	display: block;
+	text-decoration: none;
+	color: #000;
+	background-color: #CEE9F8;
+	border: solid 1px #000;
+	padding: 8px;
+	position: relative;
+}
+
+#menuheader ul li a:hover, #menuheader ul li:hover a.nivel1 {
+	background-color: #BE81F7;
+	color: #000;
+	position: relative;
+	border-bottom: solid 1px #6CC;
+}
+#menuheader ul li a.nivel1 {
+    display: block!important;
+    display: none;
+}
+#menuheader ul li ul {
+    display: none;
+}
+#menuheader ul li a:hover ul, #menuheader ul li:hover ul {
+    display: block;
+    position: absolute;
+    width: 816px;
+    border: solid 1px #8258AA;
+    border-top: none;
+    background-color: violet;
+}
+#menuheader ul li ul li a {
+	width: 160px;
+	padding: 6px 0px 8px 0px;
+	border: none;
+	background-color: violet;
+}
+#menuheader ul li ul li a:hover 
+{
+	position: relative;
+	/*text-decoration: underline;*/
+	text-decoration:none;
+	border-bottom: none;
+}
+
+#center {
+	margin-left: 5em;
+	margin-right: 5em;
+}
+
+#body {
+	text-align: center;	
+	position: relative;	
+}
+
+.homeTable {
+	border-collapse: separate;
+	border-spacing: 50px 0;
+}
+
+.homeTable td{
+	padding: 10px 0;
+}
+
+#menufooter {
+	margin-left: 5em;
+}
+
+.footerTable() {
+	border-collapse: separate;
+	border-spacing: 50px 0;
+}
+
+.footerTable td{
+	padding: 5px 15px 5px 0px;
+}
