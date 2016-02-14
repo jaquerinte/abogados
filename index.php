@@ -2,6 +2,8 @@
 session_start();
 include_once 'libs/FrontController.php';
 
+$_SESSION['logged'] = false;
+
 if(isset($_REQUEST['accion'])){
 	$pag = $_REQUEST['accion'];
 }else{
@@ -27,7 +29,7 @@ ob_start();//solucina los problemas que aparecen Warning: Cannot modify header i
 		include 'vistas/estructura/header.php';
 		
 		//array que contiene todas las acciones posibles, se utiliza en el FrontController para que invoque el metodo oportuno
-		$acciones = array( "login", "test"
+		$acciones = array( "login", "test", "inicio"
 		);
 		echo "<div id='center'>";
 		if($pag == "home") {	

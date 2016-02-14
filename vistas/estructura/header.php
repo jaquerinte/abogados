@@ -17,8 +17,7 @@
 		<div id="logo">
 			<div id="logotipo"></div>
 			<div class="titulo">
-				<span><b>Calculadora de accidentes
-				</b></span>
+				<span><b>Calculadora de accidentes</b></span>
 			</div>
 		</div>
 
@@ -27,15 +26,19 @@
 
 			<div id="menuheader">
 
-
+			<?php
+				if(isset($_SESSION['logged'])) {
+			?>
 				<ul id="nav">
-
-				 
-				
+					<li class="nivel1"><a href='index.php?accion=inicio' class="nivel1"><span>Inicio</span></a></li>
+					<li class="nivel1"><span>Usuario</span></li>
+					<li class="nivel1"><a href='index.php?controlador=Calculadora&accion=inicio' class="nivel1"><span>Calculadora de Accidentes</span></a></li>
+					<li class="nivel1"><span>Consulta de valores</span></li>
 					<!--  <li class="nivel1"><a href='index.php?accion=home' class="nivel1"><span>Inicio</span></a></li> -->
 
 						<!-- comprobar con el php si esta registrado -->
 			<?php
+				}
 			/*
 		     if(!isset($_SESSION['valid_user']) ){  ?>
 		     
