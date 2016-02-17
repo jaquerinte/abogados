@@ -1,7 +1,7 @@
 <div>
 	<ul>
-		<li><span>Completo</span></li>		
-		<li><span>Parcial</span></li>
+		<li><a href='index.php?controlador=Calculadora&accion=completo' class="nivel1">Completo</a></li>		
+		<li>Parcial</li>
 	</ul>
 	<p>
 		El calculo completo significa que ud. puede elegir cualquier campo de todas las secciones contempladas en la ley.<br>

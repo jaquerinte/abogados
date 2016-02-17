@@ -29,7 +29,7 @@ ob_start();//solucina los problemas que aparecen Warning: Cannot modify header i
 		include 'vistas/estructura/header.php';
 		
 		//array que contiene todas las acciones posibles, se utiliza en el FrontController para que invoque el metodo oportuno
-		$acciones = array( "login", "test", "inicio"
+		$acciones = array( "login", "test", "inicio", "completo"
 		);
 		echo "<div id='center'>";
 		if($pag == "home") {	
