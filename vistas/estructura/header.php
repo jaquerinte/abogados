@@ -31,7 +31,9 @@
 			?>
 				<ul id="nav">
 					<li class="nivel1"><a href='index.php?accion=inicio' class="nivel1"><span>Inicio</span></a></li>
-					<li class="nivel1"><a href='' class="nivel1"><span><?php echo $_SESSION['user_name']?></span></a></li>
+					<?php if(isset($_SESSION['user_name'])) { ?>
+						<li class="nivel1"><a href='' class="nivel1"><span><?php echo $_SESSION['user_name']?></span></a></li>
+					<?php }?>
 					<li class="nivel1"><a href='index.php?controlador=Calculadora&accion=inicio' class="nivel1"><span>Calculadora de Accidentes</span></a></li>
 					<li class="nivel1"><a href='' class="nivel1"><span>Consulta de valores</span></a></li>
 					<!--  <li class="nivel1"><a href='index.php?accion=home' class="nivel1"><span>Inicio</span></a></li> -->

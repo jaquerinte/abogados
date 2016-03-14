@@ -1,2 +1,5 @@
-<?php include 'vistas/submenuMuertePPBasico.php';?>
-<?php include 'vistas/submenuMuertePPParticular.php'?>
+<?php 
+	include 'vistas/submenuMuertePPBasico.php';
+	include 'vistas/submenuMuertePPParticular.php';
+	include 'vistas/submenuMuertePPatrimonial.php';
+?>

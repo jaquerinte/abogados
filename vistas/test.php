@@ -2,40 +2,17 @@
 	<body>
 		<h2>Pagina de prueba</h2>
 		
-		<div class="panel-group" id="accordion">
-  			<div class="panel panel-default">
-    			<div class="panel-heading">
-    				<h4 class="panel-title">
-        				<a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
-        					Seccion 1: Indemnizaciones por causa de muerte</a>
-      				</h4>
-    			</div>
-    		<div id="collapse1" class="panel-collapse collapse in">
-      			<div class="panel-body">Esto es una prueba para el menu colapsible de muerte.</div>
-    			</div>
-  			</div>
-  		<div class="panel panel-default">
-    		<div class="panel-heading">
-      			<h4 class="panel-title">
-       				<a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
-        				Seccion 2: Indemnizaciones por secuelas</a>
-      			</h4>
+		<script src="js/secuelasList.js"></script>
+		
+		<div id="usersForm">
+   			<div class="divtr" id="presUser_1">
+        		<div class="divtd">Codigo
+            		<input name="codigo_test" type="text">
+        		</div>
+        		<div class="divtd"> 
+        			<a href="javascript:void(0);" title="add" onClick='addUsersForm()'>Añadir</a>
+				</div>
     		</div>
-    		<div id="collapse2" class="panel-collapse collapse">
-      			<div class="panel-body">Esto es una prueba para el menu colapsible de secuelas.</div>
-    			</div>
-  			</div>
-  			<div class="panel panel-default">
-    			<div class="panel-heading">
-      				<h4 class="panel-title">
-        				<a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
-        				Seccion 3: Indemnizaciones por lesiones temporales.</a>
-      				</h4>
-    			</div>
-    			<div id="collapse3" class="panel-collapse collapse">
-      				<div class="panel-body">Esto es una prueba para el menu colapsible de lesiones temporales.</div>
-   				</div>
-  			</div>
 		</div>
 	
 	</body>

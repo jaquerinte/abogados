@@ -13,5 +13,9 @@ class IndexController extends ControllerBase
 	public function inicio() {
 		$this->view->show("inicio.php", "");
 	}
+	
+	public function test() {
+		$this->view->show("test.php", "");
+	}
 }
 ?>
