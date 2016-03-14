@@ -34,7 +34,7 @@
      				</h4>
     			</div>
     			<div id="collapse3" class="panel-collapse collapse">
-     				<div class="panel-body">AQUI VA OTRA SECCION</div>
+     				<div class="panel-body"><?php include 'vistas/submenuLesiones.php'; ?></div>
    				</div>
   			</div>
 		</div>

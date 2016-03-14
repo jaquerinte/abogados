@@ -4,7 +4,7 @@
 		<tr>
 			<td>
 				En su <b>panel de usuario</b>, marcado con el boton <b><?php echo $_SESSION['user_name']?></b>, 
-				podra ver su suscripon, cuando acaba, y renovarla.
+				podra ver su suscripción, cuando acaba, y renovarla.
 				Ademas, podra comprobar su historial de todas las consultas hechas en la aplicacion,
 				por si quisiese revisar algun caso. Por otro lado, tambien podra
 				cambiar su contrase&ntilde;a de acceso al sistema.
